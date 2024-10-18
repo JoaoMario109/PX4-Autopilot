@@ -123,6 +123,7 @@ These boards are not maintained by PX4 team nor Manufacturer, and is not guarant
 
 * [Raspberry PI with Navio 2](https://docs.px4.io/main/en/flight_controller/raspberry_pi_navio2.html)
 * [Bitcraze Crazyflie 2.0](https://docs.px4.io/main/en/complete_vehicles/crazyflie2.html)
+* [Raspberry PI with Navigator](#TODO - Add link)
 
 ## Project Roadmap
 
