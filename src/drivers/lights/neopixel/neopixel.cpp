@@ -99,11 +99,10 @@ int NEOPIXEL::init()
 {
 	_leds = new neopixel::NeoLEDData [_number_of_packages];
 
-	if (_leds == nullptr) {
+	if (_leds == nullptr || neopixel_init(_leds, _number_of_packages) != PX4_OK) {
 		return PX4_ERROR;
 	}
 
-	neopixel_init(_leds, _number_of_packages);
 	neopixel_write(_leds, _number_of_packages);
 	ScheduleNow();
 	return OK;
